@@ -1,0 +1,119 @@
+div.contenedor {
+  width: 100%;
+  border: 1px solid gray;
+  background-color: rgb(52, 51, 51);
+}
+
+header, footer {
+  padding: 1em;
+  color: rgb(119, 159, 206);
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+
+nav {
+  font-family: 'Calibri';
+  float: left;
+  max-width: 160px;
+  margin: 0;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none; /* Elimina viñetas */
+  padding: 0;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+a.active {
+  color: red;
+}
+
+article {
+  margin-left: 170px;
+  border-left: 1px solid gray;
+  padding: 1em;
+  overflow: hidden;
+  background-color: #373737;
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+}
+
+p {
+  font-family: 'Poppins Light';
+  color: #d4d4d4;
+  text-align: justify;
+  margin: 10px 20px; /* Ajuste de márgenes para mayor legibilidad */
+}
+
+h1 {
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Poppins Light';
+}
+
+#mexico {
+  color: rgb(172, 251, 157);
+  text-align: left;
+}
+
+#londres {
+  color: rgb(240, 114, 114);
+  text-align: left;
+}
+
+#paris {
+  color: rgb(255, 142, 199);
+  text-align: left;
+}
+
+#tokyo {
+  color: rgb(255, 134, 134);
+  text-align: left;
+}
+
+.banderaMex {
+  background-image: url("../img/mexico.png");
+  width: 200px;
+  height: 200px;
+  background-size: contain; /* Ajusta la imagen para que quepa completamente */
+  background-repeat: no-repeat; /* Evita repeticiones */
+  background-position: center; /* Centra la imagen */
+  position: relative;
+}
+
+.banderaLon {
+  background-image: url("../img/guinea.png");
+  width: 200px;
+  height: 200px;
+  background-size: contain; /* Ajusta la imagen para que quepa completamente */
+  background-repeat: no-repeat; /* Evita repeticiones */
+  background-position: center; /* Centra la imagen */
+  position: relative;
+}
+
+.banderaPar {
+  background-image: url("../img/españa.png");
+  width: 200px;
+  height: 200px;
+  background-size: contain; /* Ajusta la imagen para que quepa completamente */
+  background-repeat: no-repeat; /* Evita repeticiones */
+  background-position: center; /* Centra la imagen */
+  position: relative;
+}
+
+.banderaTok {
+  background-image: url("../img/tokio.png");
+  width: 200px;
+  height: 200px;
+  background-size: contain; /* Ajusta la imagen para que quepa completamente */
+  background-repeat: no-repeat; /* Evita repeticiones */
+  background-position: center; /* Centra la imagen */
+  position: relative;
+}
